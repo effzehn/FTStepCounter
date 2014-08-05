@@ -38,6 +38,16 @@
                ReferencedContainer = "container:StepCounterTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0D4E263118B4B2B000DFD396"
+               BuildableName = "WLStepcounterTests.xctest"
+               BlueprintName = "WLStepcounterTests"
+               ReferencedContainer = "container:StepCounterTest.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

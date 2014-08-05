@@ -12,15 +12,20 @@
 		0D2B311318B204AA00BCB79F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2B311218B204AA00BCB79F /* UIKit.framework */; };
 		0D2B311918B204AA00BCB79F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D2B311718B204AA00BCB79F /* InfoPlist.strings */; };
 		0D2B311B18B204AA00BCB79F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B311A18B204AA00BCB79F /* main.m */; };
-		0D2B311F18B204AA00BCB79F /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B311E18B204AA00BCB79F /* SCAppDelegate.m */; };
+		0D2B311F18B204AA00BCB79F /* FTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B311E18B204AA00BCB79F /* FTAppDelegate.m */; };
 		0D2B312218B204AA00BCB79F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2B312018B204AA00BCB79F /* Main.storyboard */; };
-		0D2B312518B204AA00BCB79F /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B312418B204AA00BCB79F /* SCViewController.m */; };
+		0D2B312518B204AA00BCB79F /* FTDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B312418B204AA00BCB79F /* FTDemoViewController.m */; };
 		0D2B312718B204AA00BCB79F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2B312618B204AA00BCB79F /* Images.xcassets */; };
 		0D2B312E18B204AA00BCB79F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2B312D18B204AA00BCB79F /* XCTest.framework */; };
 		0D2B312F18B204AA00BCB79F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2B310E18B204AA00BCB79F /* Foundation.framework */; };
 		0D2B313018B204AA00BCB79F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2B311218B204AA00BCB79F /* UIKit.framework */; };
-		0D2B313818B204AA00BCB79F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D2B313618B204AA00BCB79F /* InfoPlist.strings */; };
-		0D2B313A18B204AA00BCB79F /* StepCounterTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B313918B204AA00BCB79F /* StepCounterTestTests.m */; };
+		0D2B314418B20CC700BCB79F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2B314318B20CC700BCB79F /* CoreMotion.framework */; };
+		0D4E262618B4B2B000DFD396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2B310E18B204AA00BCB79F /* Foundation.framework */; };
+		0D4E263318B4B2B000DFD396 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2B312D18B204AA00BCB79F /* XCTest.framework */; };
+		0D4E263418B4B2B000DFD396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2B310E18B204AA00BCB79F /* Foundation.framework */; };
+		0D4E263518B4B2B000DFD396 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2B311218B204AA00BCB79F /* UIKit.framework */; };
+		0D4E263818B4B2B000DFD396 /* libWLStepcounter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D4E262518B4B2B000DFD396 /* libWLStepcounter.a */; };
+		0D6A49A218B35661001694CD /* FTStepCountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A49A118B35661001694CD /* FTStepCountController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,28 +36,49 @@
 			remoteGlobalIDString = 0D2B310A18B204AA00BCB79F;
 			remoteInfo = StepCounterTest;
 		};
+		0D4E263618B4B2B000DFD396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D2B310318B204AA00BCB79F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D4E262418B4B2B000DFD396;
+			remoteInfo = WLStepcounter;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0D4E262318B4B2B000DFD396 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		0D2B310B18B204AA00BCB79F /* StepCounterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepCounterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2B310B18B204AA00BCB79F /* FTStepCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTStepCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2B310E18B204AA00BCB79F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0D2B311018B204AA00BCB79F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0D2B311218B204AA00BCB79F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		0D2B311618B204AA00BCB79F /* StepCounterTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StepCounterTest-Info.plist"; sourceTree = "<group>"; };
+		0D2B311618B204AA00BCB79F /* FTStepCounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTStepCounter-Info.plist"; sourceTree = "<group>"; };
 		0D2B311818B204AA00BCB79F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D2B311A18B204AA00BCB79F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0D2B311C18B204AA00BCB79F /* StepCounterTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StepCounterTest-Prefix.pch"; sourceTree = "<group>"; };
-		0D2B311D18B204AA00BCB79F /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
-		0D2B311E18B204AA00BCB79F /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		0D2B311C18B204AA00BCB79F /* FTStepCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTStepCounter-Prefix.pch"; sourceTree = "<group>"; };
+		0D2B311D18B204AA00BCB79F /* FTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAppDelegate.h; sourceTree = "<group>"; };
+		0D2B311E18B204AA00BCB79F /* FTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAppDelegate.m; sourceTree = "<group>"; };
 		0D2B312118B204AA00BCB79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0D2B312318B204AA00BCB79F /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
-		0D2B312418B204AA00BCB79F /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
+		0D2B312318B204AA00BCB79F /* FTDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTDemoViewController.h; sourceTree = "<group>"; };
+		0D2B312418B204AA00BCB79F /* FTDemoViewController.m */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.c.objc; path = FTDemoViewController.m; sourceTree = "<group>"; };
 		0D2B312618B204AA00BCB79F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0D2B312C18B204AA00BCB79F /* StepCounterTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepCounterTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2B312C18B204AA00BCB79F /* FTStepCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTStepCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2B312D18B204AA00BCB79F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		0D2B313518B204AA00BCB79F /* StepCounterTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StepCounterTestTests-Info.plist"; sourceTree = "<group>"; };
-		0D2B313718B204AA00BCB79F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0D2B313918B204AA00BCB79F /* StepCounterTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepCounterTestTests.m; sourceTree = "<group>"; };
+		0D2B314318B20CC700BCB79F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		0D4E262518B4B2B000DFD396 /* libWLStepcounter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWLStepcounter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4E263218B4B2B000DFD396 /* WLStepcounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLStepcounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D6A49A018B35661001694CD /* FTStepCountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTStepCountController.h; sourceTree = "<group>"; };
+		0D6A49A118B35661001694CD /* FTStepCountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTStepCountController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2B314418B20CC700BCB79F /* CoreMotion.framework in Frameworks */,
 				0D2B311118B204AA00BCB79F /* CoreGraphics.framework in Frameworks */,
 				0D2B311318B204AA00BCB79F /* UIKit.framework in Frameworks */,
 				0D2B310F18B204AA00BCB79F /* Foundation.framework in Frameworks */,
@@ -76,14 +103,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0D4E262218B4B2B000DFD396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4E262618B4B2B000DFD396 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4E262F18B4B2B000DFD396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4E263318B4B2B000DFD396 /* XCTest.framework in Frameworks */,
+				0D4E263518B4B2B000DFD396 /* UIKit.framework in Frameworks */,
+				0D4E263418B4B2B000DFD396 /* Foundation.framework in Frameworks */,
+				0D4E263818B4B2B000DFD396 /* libWLStepcounter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0D2B310218B204AA00BCB79F = {
 			isa = PBXGroup;
 			children = (
-				0D2B311418B204AA00BCB79F /* StepCounterTest */,
-				0D2B313318B204AA00BCB79F /* StepCounterTestTests */,
+				0D2B311418B204AA00BCB79F /* FTStepCounter */,
 				0D2B310D18B204AA00BCB79F /* Frameworks */,
 				0D2B310C18B204AA00BCB79F /* Products */,
 			);
@@ -92,8 +137,10 @@
 		0D2B310C18B204AA00BCB79F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D2B310B18B204AA00BCB79F /* StepCounterTest.app */,
-				0D2B312C18B204AA00BCB79F /* StepCounterTestTests.xctest */,
+				0D2B310B18B204AA00BCB79F /* FTStepCounter.app */,
+				0D2B312C18B204AA00BCB79F /* FTStepCounterTests.xctest */,
+				0D4E262518B4B2B000DFD396 /* libWLStepcounter.a */,
+				0D4E263218B4B2B000DFD396 /* WLStepcounterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +148,7 @@
 		0D2B310D18B204AA00BCB79F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0D2B314318B20CC700BCB79F /* CoreMotion.framework */,
 				0D2B310E18B204AA00BCB79F /* Foundation.framework */,
 				0D2B311018B204AA00BCB79F /* CoreGraphics.framework */,
 				0D2B311218B204AA00BCB79F /* UIKit.framework */,
@@ -109,45 +157,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0D2B311418B204AA00BCB79F /* StepCounterTest */ = {
+		0D2B311418B204AA00BCB79F /* FTStepCounter */ = {
 			isa = PBXGroup;
 			children = (
-				0D2B311D18B204AA00BCB79F /* SCAppDelegate.h */,
-				0D2B311E18B204AA00BCB79F /* SCAppDelegate.m */,
+				0D2B311D18B204AA00BCB79F /* FTAppDelegate.h */,
+				0D2B311E18B204AA00BCB79F /* FTAppDelegate.m */,
+				0D6A49A018B35661001694CD /* FTStepCountController.h */,
+				0D6A49A118B35661001694CD /* FTStepCountController.m */,
 				0D2B312018B204AA00BCB79F /* Main.storyboard */,
-				0D2B312318B204AA00BCB79F /* SCViewController.h */,
-				0D2B312418B204AA00BCB79F /* SCViewController.m */,
+				0D2B312318B204AA00BCB79F /* FTDemoViewController.h */,
+				0D2B312418B204AA00BCB79F /* FTDemoViewController.m */,
 				0D2B312618B204AA00BCB79F /* Images.xcassets */,
 				0D2B311518B204AA00BCB79F /* Supporting Files */,
 			);
+			name = FTStepCounter;
 			path = StepCounterTest;
 			sourceTree = "<group>";
 		};
 		0D2B311518B204AA00BCB79F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0D2B311618B204AA00BCB79F /* StepCounterTest-Info.plist */,
+				0D2B311618B204AA00BCB79F /* FTStepCounter-Info.plist */,
 				0D2B311718B204AA00BCB79F /* InfoPlist.strings */,
 				0D2B311A18B204AA00BCB79F /* main.m */,
-				0D2B311C18B204AA00BCB79F /* StepCounterTest-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0D2B313318B204AA00BCB79F /* StepCounterTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				0D2B313918B204AA00BCB79F /* StepCounterTestTests.m */,
-				0D2B313418B204AA00BCB79F /* Supporting Files */,
-			);
-			path = StepCounterTestTests;
-			sourceTree = "<group>";
-		};
-		0D2B313418B204AA00BCB79F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0D2B313518B204AA00BCB79F /* StepCounterTestTests-Info.plist */,
-				0D2B313618B204AA00BCB79F /* InfoPlist.strings */,
+				0D2B311C18B204AA00BCB79F /* FTStepCounter-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,9 +188,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0D2B310A18B204AA00BCB79F /* StepCounterTest */ = {
+		0D2B310A18B204AA00BCB79F /* FTStepCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D2B313D18B204AA00BCB79F /* Build configuration list for PBXNativeTarget "StepCounterTest" */;
+			buildConfigurationList = 0D2B313D18B204AA00BCB79F /* Build configuration list for PBXNativeTarget "FTStepCounter" */;
 			buildPhases = (
 				0D2B310718B204AA00BCB79F /* Sources */,
 				0D2B310818B204AA00BCB79F /* Frameworks */,
@@ -167,14 +200,14 @@
 			);
 			dependencies = (
 			);
-			name = StepCounterTest;
+			name = FTStepCounter;
 			productName = StepCounterTest;
-			productReference = 0D2B310B18B204AA00BCB79F /* StepCounterTest.app */;
+			productReference = 0D2B310B18B204AA00BCB79F /* FTStepCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0D2B312B18B204AA00BCB79F /* StepCounterTestTests */ = {
+		0D2B312B18B204AA00BCB79F /* FTStepCounterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D2B314018B204AA00BCB79F /* Build configuration list for PBXNativeTarget "StepCounterTestTests" */;
+			buildConfigurationList = 0D2B314018B204AA00BCB79F /* Build configuration list for PBXNativeTarget "FTStepCounterTests" */;
 			buildPhases = (
 				0D2B312818B204AA00BCB79F /* Sources */,
 				0D2B312918B204AA00BCB79F /* Frameworks */,
@@ -185,9 +218,44 @@
 			dependencies = (
 				0D2B313218B204AA00BCB79F /* PBXTargetDependency */,
 			);
-			name = StepCounterTestTests;
+			name = FTStepCounterTests;
 			productName = StepCounterTestTests;
-			productReference = 0D2B312C18B204AA00BCB79F /* StepCounterTestTests.xctest */;
+			productReference = 0D2B312C18B204AA00BCB79F /* FTStepCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D4E262418B4B2B000DFD396 /* WLStepcounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4E264518B4B2B000DFD396 /* Build configuration list for PBXNativeTarget "WLStepcounter" */;
+			buildPhases = (
+				0D4E262118B4B2B000DFD396 /* Sources */,
+				0D4E262218B4B2B000DFD396 /* Frameworks */,
+				0D4E262318B4B2B000DFD396 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLStepcounter;
+			productName = WLStepcounter;
+			productReference = 0D4E262518B4B2B000DFD396 /* libWLStepcounter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0D4E263118B4B2B000DFD396 /* WLStepcounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4E264618B4B2B000DFD396 /* Build configuration list for PBXNativeTarget "WLStepcounterTests" */;
+			buildPhases = (
+				0D4E262E18B4B2B000DFD396 /* Sources */,
+				0D4E262F18B4B2B000DFD396 /* Frameworks */,
+				0D4E263018B4B2B000DFD396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D4E263718B4B2B000DFD396 /* PBXTargetDependency */,
+			);
+			name = WLStepcounterTests;
+			productName = WLStepcounterTests;
+			productReference = 0D4E263218B4B2B000DFD396 /* WLStepcounterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -197,15 +265,18 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SC;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "welldoo GmbH";
 				TargetAttributes = {
 					0D2B312B18B204AA00BCB79F = {
 						TestTargetID = 0D2B310A18B204AA00BCB79F;
 					};
+					0D4E263118B4B2B000DFD396 = {
+						TestTargetID = 0D2B310A18B204AA00BCB79F;
+					};
 				};
 			};
-			buildConfigurationList = 0D2B310618B204AA00BCB79F /* Build configuration list for PBXProject "StepCounterTest" */;
+			buildConfigurationList = 0D2B310618B204AA00BCB79F /* Build configuration list for PBXProject "FTStepCounter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +289,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D2B310A18B204AA00BCB79F /* StepCounterTest */,
-				0D2B312B18B204AA00BCB79F /* StepCounterTestTests */,
+				0D2B310A18B204AA00BCB79F /* FTStepCounter */,
+				0D2B312B18B204AA00BCB79F /* FTStepCounterTests */,
+				0D4E262418B4B2B000DFD396 /* WLStepcounter */,
+				0D4E263118B4B2B000DFD396 /* WLStepcounterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,7 +312,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D2B313818B204AA00BCB79F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4E263018B4B2B000DFD396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +329,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D2B311F18B204AA00BCB79F /* SCAppDelegate.m in Sources */,
-				0D2B312518B204AA00BCB79F /* SCViewController.m in Sources */,
+				0D2B311F18B204AA00BCB79F /* FTAppDelegate.m in Sources */,
+				0D6A49A218B35661001694CD /* FTStepCountController.m in Sources */,
+				0D2B312518B204AA00BCB79F /* FTDemoViewController.m in Sources */,
 				0D2B311B18B204AA00BCB79F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +340,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D2B313A18B204AA00BCB79F /* StepCounterTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4E262118B4B2B000DFD396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4E262E18B4B2B000DFD396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +362,13 @@
 /* Begin PBXTargetDependency section */
 		0D2B313218B204AA00BCB79F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0D2B310A18B204AA00BCB79F /* StepCounterTest */;
+			target = 0D2B310A18B204AA00BCB79F /* FTStepCounter */;
 			targetProxy = 0D2B313118B204AA00BCB79F /* PBXContainerItemProxy */;
+		};
+		0D4E263718B4B2B000DFD396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D4E262418B4B2B000DFD396 /* WLStepcounter */;
+			targetProxy = 0D4E263618B4B2B000DFD396 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -291,14 +389,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0D2B313618B204AA00BCB79F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D2B313718B204AA00BCB79F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -306,7 +396,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -345,7 +434,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -380,9 +468,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "StepCounterTest/StepCounterTest-Prefix.pch";
-				INFOPLIST_FILE = "StepCounterTest/StepCounterTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "StepCounterTest/FTStepCounter-Prefix.pch";
+				INFOPLIST_FILE = "StepCounterTest/FTStepCounter-Info.plist";
+				PRODUCT_NAME = FTStepCounter;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,9 +481,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "StepCounterTest/StepCounterTest-Prefix.pch";
-				INFOPLIST_FILE = "StepCounterTest/StepCounterTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "StepCounterTest/FTStepCounter-Prefix.pch";
+				INFOPLIST_FILE = "StepCounterTest/FTStepCounter-Info.plist";
+				PRODUCT_NAME = FTStepCounter;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -403,7 +491,6 @@
 		0D2B314118B204AA00BCB79F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StepCounterTest.app/StepCounterTest";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -417,7 +504,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "StepCounterTestTests/StepCounterTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FTStepCounterTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -426,7 +513,6 @@
 		0D2B314218B204AA00BCB79F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StepCounterTest.app/StepCounterTest";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -436,6 +522,74 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StepCounterTest/StepCounterTest-Prefix.pch";
 				INFOPLIST_FILE = "StepCounterTestTests/StepCounterTestTests-Info.plist";
+				PRODUCT_NAME = FTStepCounterTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		0D4E264118B4B2B000DFD396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WLStepcounter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WLStepcounter/WLStepcounter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0D4E264218B4B2B000DFD396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WLStepcounter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WLStepcounter/WLStepcounter-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0D4E264318B4B2B000DFD396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StepCounterTest.app/StepCounterTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WLStepcounter/WLStepcounter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WLStepcounterTests/WLStepcounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0D4E264418B4B2B000DFD396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StepCounterTest.app/StepCounterTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WLStepcounter/WLStepcounter-Prefix.pch";
+				INFOPLIST_FILE = "WLStepcounterTests/WLStepcounterTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -445,7 +599,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D2B310618B204AA00BCB79F /* Build configuration list for PBXProject "StepCounterTest" */ = {
+		0D2B310618B204AA00BCB79F /* Build configuration list for PBXProject "FTStepCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D2B313B18B204AA00BCB79F /* Debug */,
@@ -454,21 +608,41 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D2B313D18B204AA00BCB79F /* Build configuration list for PBXNativeTarget "StepCounterTest" */ = {
+		0D2B313D18B204AA00BCB79F /* Build configuration list for PBXNativeTarget "FTStepCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D2B313E18B204AA00BCB79F /* Debug */,
 				0D2B313F18B204AA00BCB79F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0D2B314018B204AA00BCB79F /* Build configuration list for PBXNativeTarget "StepCounterTestTests" */ = {
+		0D2B314018B204AA00BCB79F /* Build configuration list for PBXNativeTarget "FTStepCounterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D2B314118B204AA00BCB79F /* Debug */,
 				0D2B314218B204AA00BCB79F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D4E264518B4B2B000DFD396 /* Build configuration list for PBXNativeTarget "WLStepcounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4E264118B4B2B000DFD396 /* Debug */,
+				0D4E264218B4B2B000DFD396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D4E264618B4B2B000DFD396 /* Build configuration list for PBXNativeTarget "WLStepcounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4E264318B4B2B000DFD396 /* Debug */,
+				0D4E264418B4B2B000DFD396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
