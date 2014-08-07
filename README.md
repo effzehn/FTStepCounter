@@ -1,6 +1,7 @@
 ## FTStepCounter
 
 _Will only work with M7 enabled devices_
+
 _Not tested recently because I have no compatible device at hand. Let me know or make a pull request if something is wrong._
 
 ### About
