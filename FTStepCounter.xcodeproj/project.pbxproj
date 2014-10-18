@@ -182,9 +182,9 @@
 		0D2B310318B204AA00BCB79F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = SC;
+				CLASSPREFIX = FT;
 				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = "welldoo GmbH";
+				ORGANIZATIONNAME = "Andre Hoffmann";
 				TargetAttributes = {
 					0D2B312B18B204AA00BCB79F = {
 						TestTargetID = 0D2B310A18B204AA00BCB79F;
@@ -354,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StepCounterTest/FTStepCounter-Prefix.pch";
 				INFOPLIST_FILE = "StepCounterTest/FTStepCounter-Info.plist";
@@ -367,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StepCounterTest/FTStepCounter-Prefix.pch";
 				INFOPLIST_FILE = "StepCounterTest/FTStepCounter-Info.plist";
