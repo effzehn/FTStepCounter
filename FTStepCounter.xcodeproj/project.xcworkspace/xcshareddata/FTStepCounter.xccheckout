@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8B1C9CA9-BAB9-40BE-9208-83A51B8BA904</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FTStepCounter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E2899850FA282408BF2084B5B8E430DB8723A9BA</key>
+		<string>https://github.com/effzehn/FTStepCounter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FTStepCounter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E2899850FA282408BF2084B5B8E430DB8723A9BA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/effzehn/FTStepCounter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E2899850FA282408BF2084B5B8E430DB8723A9BA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E2899850FA282408BF2084B5B8E430DB8723A9BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FTStepCounter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
