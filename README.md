@@ -1,8 +1,6 @@
 ## FTStepCounter
 
-_Will only work with M7 enabled devices_
-
-_Not tested recently because I have no compatible device at hand. Let me know or make a pull request if something is wrong._
+_Will only work with M7 and M8 enabled devices_
 
 ### About
 FTStepCounter facilitates the M7 motion coprocessor available since the iPhone 5s for recording steps. It records steps in real time as well as while the app is not active by acquiring the intermittent steps made – for up to 7 days according to the Apple documentation. In addition to that, the app saves all steps recorded in the user defaults until the count has been reset by user interaction.
